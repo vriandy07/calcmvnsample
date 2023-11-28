@@ -6,10 +6,7 @@
 trigger:
 - master
 
-pool:
-  name: default
-  demands:
-  -agent.name: DESKTOP-1QQNI21
+pool: default
 
 steps:
 - task: Maven@3
